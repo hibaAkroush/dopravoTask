@@ -1,14 +1,38 @@
 
 function load() {
-console.log(elems)
-_.each(elems,function(val,i){
-console.log(val.id)
+var data = elems.elements
+console.log(data)
+
+_.each(data,function(val,i){
+console.log(val.background)
+var img = '<img src =' + val.background + 'id="backgroundImg"/>'
+var box = '<div id = "box"></div>'
+var p1img = '<img src =' + val.playerOneImg +' id="playerOneImg"/>'
+var p2img = '<img src =' + val.playerTwoImg + 'id="playerTwoImg"/>'
+var titlelogo = '<img src =' + val.titleLogo + 'id="titleLogo"/>'
+var p1name = '<p>'+val.playerOneName+'</p>'
+var p2name = '<p>'+ val.playerTwoName +'</p>'
+
+// 		<p id="vs">{vs}</p>
+// 		<p id="title">{title}</p>
+// 		<p id="date">{date}</p>
+// 		<p id="time">{time}</p>
+//      <img id="loc" src={loc}/>
+// 		<p id="place">{place}</p>
+// 		<p id="event">{event}</p>
+// 		<p id="seats">{seatsRemaining} Remaining of {seatsTotal} Seats</p>
+
+
+$("#element"+i).append(p2name, p1name)
 	})
 
 $('.multiple-items').slick({
   infinite: false,
   slidesToShow: 4,
-  slidesToScroll: 2
+  slidesToScroll: 2,
+   dots: false,
+   	prevArrow: false,
+   nextArrow: false
 });
 }
 
@@ -41,7 +65,8 @@ $('.multiple-items').slick({
 // 		<p id="title">{title}</p>
 // 		<p id="date">{date}</p>
 // 		<p id="time">{time}</p>
-// 		<div id="place"><img id="loc" src={loc}/><p>{place}</p></div>
+//      <img id="loc" src={loc}/>
+// 		<p id="place">{place}</p>
 // 		<p id="event">{event}</p>
 // 		<p id="seats">{seatsRemaining} Remaining of {seatsTotal} Seats</p>
 

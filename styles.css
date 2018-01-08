@@ -396,10 +396,180 @@ position: absolute;
 top: 230px;
 left: 70px;
 height: 115px;
-width: 157px;
+width: 900px;
+}
+#box{
+position: relative;
+z-index: -1;
+top: 175px;
+left: 70px;
+height: 115px;
+width: 162px;
 background-color: rgba(255, 255, 255, 1);
 border-radius: 2px;
 }
+#coming{
+position: relative;
+top: 90px;
+right: 2px;
+height: 16px;
+width: 53px;
+}
+#backgroundImg{
+position: relative;
+top: 230px;
+left: 70px;
+height: 55px;
+width: 162px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 2px;
+}
+#playerOneImg{
+position: relative;
+top: 60px;
+left: 86px;
+height: 24px;
+width: 25px;
+}
+#playerTwoImg{
+position: relative;
+top: 60px;
+left: 164px;
+height: 23px;
+width: 23px;
+}
+#titleLogo{
+position: relative;
+top: 58px;
+left: 95px;
+height: 15px;
+width: 22px;
+}
+#playerOneName{
+position: relative;
+top: 60px;
+left: 81px;
+height: 6px;
+width: 34px;
+font-size: 7px;
+color: rgba(255, 255, 255, 1);
+}
+#playerTwoName{
+position: relative;
+top: 55px;
+left: 187px;
+height: 6px;
+width: 27px;
+font-size: 7px;
+color: rgba(255, 255, 255, 1);
+}
+#vs{
+position: relative;
+top: 56px;
+left: 145px;
+height: 11px;
+width: 12px;
+font-family: 'Helvetica';
+font-size: 9px;
+font-weight: 300;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+}
+#title{
+position: relative;
+top: 35px;
+left: 126px;
+height: 5px;
+width: 48px;
+font-family: 'Helvetica Neue';
+font-size: 3px;
+font-weight: bold;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+}
+#date{
+position: relative;
+top: 63px;
+left: 106px;
+height: 7px;
+width: 47px;
+font-family: 'Helvetica Neue';
+font-size: 6px;
+color: rgba(150, 149, 151, 1);
+text-align: center;
+}
+#time{
+position: relative;
+top: 56px;
+left: 90px;
+height: 7px;
+font-family: 'Helvetica Neue';
+font-size: 6px;
+color: rgba(150, 149, 151, 1);
+text-align: center;
+}
+#place{
+position: relative;
+top: 60px;
+left: 74px;
+height: 6px;
+font-family: 'Helvetica Neue';
+font-size: 6px;
+color: rgba(150, 149, 151, 1);
+text-align: center;
+}
+#event{
+position: relative;
+top: 90px;
+left: 86px;
+height: 8px;
+width: 24px;
+font-family: 'Helvetica Neue';
+font-size: 7px;
+color: rgba(150, 149, 151, 1);
+text-align: left;
+}
+#seats{
+position: relative;
+top: 82px;
+left: 144px;
+height: 8px;
+width: 79px;
+/*Text styles for 20 Remaini */
+font-family: 'Helvetica Neue';
+font-size: 7px;
+color: rgba(71, 70, 72, 1);
+text-align: center;
+font-family: 'Helvetica Neue';
+font-size: 7px;
+color: rgba(165, 165, 165, 1);
+text-align: center;
+}
+
+#loc{
+position: absolute;
+
+left: 25px;
+height: 6px;
+width: 5px;
+}
+
+
+
+p:nth-child(1){
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
