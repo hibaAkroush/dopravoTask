@@ -417,7 +417,7 @@ width: 53px;
 }
 #backgroundImg{
 position: relative;
-top: 230px;
+top: 100px;
 left: 70px;
 height: 55px;
 width: 162px;
@@ -557,13 +557,14 @@ width: 5px;
 
 
 p:nth-child(1){
-	color: red;
+position: relative;
+top: 60px;
+left: 81px;
+height: 6px;
+width: 34px;
+font-size: 7px;
+color: rgba(255, 255, 255, 1);
 }
-
-
-
-
-
 
 
 

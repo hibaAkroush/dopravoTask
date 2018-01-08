@@ -5,7 +5,6 @@ console.log(data)
 
 _.each(data,function(val,i){
 console.log(val.background)
-var img = '<img src =' + val.background + 'id="backgroundImg"/>'
 var box = '<div id = "box"></div>'
 var p1img = '<img src =' + val.playerOneImg +' id="playerOneImg"/>'
 var p2img = '<img src =' + val.playerTwoImg + 'id="playerTwoImg"/>'
@@ -21,7 +20,6 @@ var p2name = '<p>'+ val.playerTwoName +'</p>'
 // 		<p id="place">{place}</p>
 // 		<p id="event">{event}</p>
 // 		<p id="seats">{seatsRemaining} Remaining of {seatsTotal} Seats</p>
-
 
 $("#element"+i).append(p2name, p1name)
 	})
