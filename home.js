@@ -43,7 +43,14 @@ $('.multiple-items').slick({
    nextArrow: false
 });
 
-
-
+	$("#element1").on("mouseover",function () {
+		$("#ticket").show()
+		$("#trick").show()
+	})
+	$("#element1").on("mouseout",function () {
+		$("#ticket").hide()
+		$("#trick").hide()
+	})
 }
+
 

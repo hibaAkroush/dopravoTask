@@ -431,8 +431,8 @@ z-index: 2;
 #box{
 position: absolute;
 z-index: -1;
-top: 1px;
-height: 115px;
+top: 55px;
+height: 65px;
 width: 145px;
 background-color: rgba(255, 255, 255, 1);
 border-radius: 2px;
@@ -605,4 +605,31 @@ border-radius: 2px;
 	bottom: 105px;
 	font-size: 12px;
 	left: 10px;		
+}
+#ticket{
+position: relative;
+left: 250px;
+height: 20px;
+width: 90px;
+border: 1px solid ;
+border-radius: 20px;	
+z-index: 4;
+color: rgba(255, 255, 255, 1);
+font-family: 'Helvetica Neue';
+font-size: 9px;
+background-image: -webkit-linear-gradient(-180deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%);
+top: 90px;
+display: none;
+}
+
+#trick{
+position: absolute;
+left: 230px;
+height: 20px;
+width: 130px;
+background-color: rgba(255, 255, 255, 1);
+z-index: 3;
+font-size: 9px;
+top: 325px;
+display: none;
 }
