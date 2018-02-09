@@ -392,35 +392,34 @@ text-align: left;
 
 /*listA*/
 #listA{
-position: absolute;
+position: relative;
 top: 230px;
-left: 70px;
+left: 72px;
 height: 115px;
-width: 900px;
+width: 590px;
+z-index: 1;
 }
 #box{
-position: relative;
+position: absolute;
 z-index: -1;
-top: 175px;
-left: 70px;
+top: 17px;
 height: 115px;
-width: 162px;
+width: 145px;
 background-color: rgba(255, 255, 255, 1);
 border-radius: 2px;
 }
 #coming{
 position: relative;
-top: 90px;
-right: 2px;
+top: 58px;
+right: 3px;
 height: 16px;
 width: 53px;
+z-index: 2;
 }
 #backgroundImg{
 position: relative;
-top: 100px;
-left: 70px;
 height: 55px;
-width: 162px;
+width: 145px;
 background-color: rgba(255, 255, 255, 1);
 border-radius: 2px;
 }

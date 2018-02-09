@@ -1,0 +1,23 @@
+{
+  "name": "dopravotask",
+  "version": "1.0.0",
+  "description": "redoing the project using html css slick and jquery",
+  "main": "home.js",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hibaAkroush/dopravoTask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hibaAkroush/dopravoTask/issues"
+  },
+  "homepage": "https://github.com/hibaAkroush/dopravoTask#readme"
+}
