@@ -399,23 +399,6 @@ height: 115px;
 width: 590px;
 z-index: 1;
 }
-#box{
-position: absolute;
-z-index: -1;
-top: 17px;
-height: 115px;
-width: 145px;
-background-color: rgba(255, 255, 255, 1);
-border-radius: 2px;
-}
-#coming{
-position: relative;
-top: 58px;
-right: 3px;
-height: 16px;
-width: 53px;
-z-index: 2;
-}
 #backgroundImg{
 position: relative;
 height: 55px;
@@ -425,38 +408,57 @@ border-radius: 2px;
 }
 #playerOneImg{
 position: relative;
-top: 60px;
-left: 86px;
-height: 24px;
-width: 25px;
+bottom:  65px;
+left: 15px;
+height: 20px;
+width: 17px;
 }
 #playerTwoImg{
 position: relative;
-top: 60px;
-left: 164px;
-height: 23px;
-width: 23px;
+bottom:  84px;
+left: 110px;
+height: 20px;
+width: 17px;
 }
+#coming{
+position: relative;
+bottom: 13px;
+right: 3px;
+height: 16px;
+width: 53px;
+z-index: 2;
+}
+#box{
+position: absolute;
+z-index: -1;
+top: 1px;
+height: 115px;
+width: 145px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 2px;
+}
+
+
 #titleLogo{
 position: relative;
-top: 58px;
-left: 95px;
+bottom: 237px;
+left: 63px;
 height: 15px;
 width: 22px;
 }
 #playerOneName{
 position: relative;
-top: 60px;
-left: 81px;
+bottom: 103px;
+left: 10px;
 height: 6px;
 width: 34px;
-font-size: 7px;
+font-size: 6px;
 color: rgba(255, 255, 255, 1);
 }
 #playerTwoName{
 position: relative;
-top: 55px;
-left: 187px;
+bottom: 89px;
+left: 107px;
 height: 6px;
 width: 27px;
 font-size: 7px;
@@ -464,8 +466,8 @@ color: rgba(255, 255, 255, 1);
 }
 #vs{
 position: relative;
-top: 56px;
-left: 145px;
+bottom: 195px;
+left: 67px;
 height: 11px;
 width: 12px;
 font-family: 'Helvetica';
@@ -473,23 +475,24 @@ font-size: 9px;
 font-weight: 300;
 color: rgba(255, 255, 255, 1);
 text-align: center;
+z-index: 2;
 }
 #title{
 position: relative;
-top: 35px;
-left: 126px;
+bottom: 187px;
+left: 0px;
 height: 5px;
-width: 48px;
 font-family: 'Helvetica Neue';
-font-size: 3px;
+font-size: 4px;
 font-weight: bold;
 color: rgba(255, 255, 255, 1);
 text-align: center;
+z-index: 2;
 }
 #date{
 position: relative;
-top: 63px;
-left: 106px;
+bottom:  138px;
+left: 30px;
 height: 7px;
 width: 47px;
 font-family: 'Helvetica Neue';
@@ -499,8 +502,8 @@ text-align: center;
 }
 #time{
 position: relative;
-top: 56px;
-left: 90px;
+bottom:  125px;
+left: 20px;
 height: 7px;
 font-family: 'Helvetica Neue';
 font-size: 6px;
@@ -509,8 +512,8 @@ text-align: center;
 }
 #place{
 position: relative;
-top: 60px;
-left: 74px;
+bottom:  100px;
+left: 5px;
 height: 6px;
 font-family: 'Helvetica Neue';
 font-size: 6px;
@@ -519,8 +522,8 @@ text-align: center;
 }
 #event{
 position: relative;
-top: 90px;
-left: 86px;
+bottom:  55px;
+left: 10px;
 height: 8px;
 width: 24px;
 font-family: 'Helvetica Neue';
@@ -530,11 +533,9 @@ text-align: left;
 }
 #seats{
 position: relative;
-top: 82px;
-left: 144px;
+bottom:  40px;
+left: 25px;
 height: 8px;
-width: 79px;
-/*Text styles for 20 Remaini */
 font-family: 'Helvetica Neue';
 font-size: 7px;
 color: rgba(71, 70, 72, 1);
@@ -545,33 +546,63 @@ color: rgba(165, 165, 165, 1);
 text-align: center;
 }
 
-#loc{
-position: absolute;
+#upcoming{
+	position: absolute;
+	top: 193px;
+	left: 74px;
+	color: rgb(94, 94, 94);
+	font-size: 12px;
+}
 
-left: 25px;
-height: 6px;
-width: 5px;
+#membership{
+	position: absolute;
+	top: 350px;
+	left: 74px;
+	color: rgb(94, 94, 94);
+	font-size: 12px;
 }
 
 
-
-p:nth-child(1){
+/*listB*/
+#listB{
 position: relative;
-top: 60px;
-left: 81px;
-height: 6px;
-width: 34px;
-font-size: 7px;
-color: rgba(255, 255, 255, 1);
+top: 270px;
+left: 72px;
+height: 115px;
+width: 590px;
+z-index: 1;
 }
 
 
+#dummyBackround{
+position: relative;
+height: 90px;
+width: 145px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 2px;
+}
 
+#listB p{
+	position: relative;
+	color: rgba(255, 255, 255, 1);
+	z-index: 2;
+	font-family: 'Helvetica Neue';
 
+}
 
+#dummyDummy{
+	bottom: 86px;
+	font-size: 6px;
+	left: 10px;
+}
 
-
-
-
-
-
+#dummyLorum{
+	bottom: 40px;
+	font-size: 7px;
+	left: 60px;
+}
+#dummyNumber{
+	bottom: 105px;
+	font-size: 12px;
+	left: 10px;		
+}

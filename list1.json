@@ -32,7 +32,7 @@ var elems = {
          "date": "Sat 12 Nov 2016",
          "time": "10:00 PM",
          "place": "Riyadh, king Fahad International Stadium",
-         "event": "football",
+         "event": "Football",
          "seatsRemaining": 35,
          "seatsTotal": 500
       },
@@ -50,7 +50,7 @@ var elems = {
          "date": "Sat 12 Nov 2016",
          "time": "10:00 PM",
          "place": "Riyadh, king Fahad International Stadium",
-         "event": "football",
+         "event": "Football",
          "seatsRemaining": 2,
          "seatsTotal": 600
       },
@@ -68,7 +68,7 @@ var elems = {
          "date": "Sat 12 Nov 2016",
          "time": "10:00 PM",
          "place": "Riyadh, king Fahad International Stadium",
-         "event": "football",
+         "event": "Football",
          "seatsRemaining": 20,
          "seatsTotal": 500
       },
@@ -86,7 +86,7 @@ var elems = {
          "date": "Sat 2 Nov 2016",
          "time": "10:00 PM",
          "place": "Riyadh, king Fahad International Stadium",
-         "event": "football",
+         "event": "Football",
          "seatsRemaining": 200,
          "seatsTotal": 1000
       },
@@ -104,7 +104,7 @@ var elems = {
          "date": "Sat 1 Nov 2016",
          "time": "10:00 PM",
          "place": "Riyadh, king Fahad International Stadium",
-         "event": "football",
+         "event": "Football",
          "seatsRemaining": 10,
          "seatsTotal": 500
       }

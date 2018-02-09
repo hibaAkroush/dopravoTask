@@ -1,0 +1,46 @@
+var listDummy = {
+   "dummyElements": [
+      {
+         "id": 1,
+         "background": "./web/group_5_copy_2-3x.png",
+         "dummy" : "Dummy Text",
+         "number" : "500 SR",
+         "lorum" : "lorum impsum text"
+      },
+      {
+         "id": 2,
+         "background": "./web/group_5_copy-3x.png",
+         "dummy" : "Dummy Text",
+         "number" : "500 SR",
+         "lorum" : "lorum impsum text"         
+      },
+      {
+         "id": 3,
+         "background": "./web/group_5-3x.png",
+         "dummy" : "Dummy Text",
+         "number" : "500 SR",
+         "lorum" : "lorum impsum text"
+      },
+      {
+         "id": 4,
+         "background": "./web/group_5_copy-3x.png",
+         "dummy" : "Dummy Text",
+         "number" : "500 SR",
+         "lorum" : "lorum impsum text"
+      },
+      {
+         "id": 5,
+         "background": "./web/group_5-3x.png",
+         "dummy" : "Dummy Text",
+         "number" : "500 SR",
+         "lorum" : "lorum impsum text"
+      },
+      {
+         "id": 6,
+         "background": "./web/group_5_copy_2-3x.png",
+         "dummy" : "Dummy Text",
+         "number" : "500 SR",
+         "lorum" : "lorum impsum text"
+      }
+   ]
+}  
