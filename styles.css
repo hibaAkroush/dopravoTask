@@ -620,19 +620,20 @@ z-index: 3;
 color: rgba(255, 255, 255, 1);
 font-family: 'Helvetica Neue';
 font-size: 9px;
-top:70px;
+top:100px;
+display: none;
 background-image: -webkit-linear-gradient(-180deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%);
 }
 
 #trick{
 position: absolute;
-left: 230px;
+left: 155px;
 height: 20px;
 width: 130px;
 background-color: rgba(255, 255, 255, 1);
-z-index: 3;
+z-index: 2;
 font-size: 9px;
-top: 325px;
+top: 95px;
 }
 
 #page2Pic{
@@ -653,7 +654,7 @@ left: 70px;
 }
 
 #PurchaseTickets{
-	position: absolute;
+position: absolute;
 left: 170px;
 height: 20px;
 width: 90px;

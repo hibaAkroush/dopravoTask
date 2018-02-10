@@ -49,7 +49,9 @@ $('.multiple-items').slick({
 	    $( "#element1" ).hover(
 	        function(){
 	            console.log( "mouseEnter" );
-				$("#ticket").animate({top: '10px'}, "slow")
+				$("#ticket").show(0, function () {
+					$("#ticket").animate({"top":"90px"})
+				})
 				$("#trick").show()            
 	        },
 	        function(){
