@@ -43,14 +43,19 @@ $('.multiple-items').slick({
    nextArrow: false
 });
 
-	$("#element1").on("mouseover",function () {
-		$("#ticket").show()
+		$("#element1, box, playerOneImg, playerTwoImg, playerTwoName, playerOneName, titleLogo, vs, title, date, time, place, event, seats,backgroundImg , coming").on("mouseover",function () {
+		console.log("mouse is in")	
+		$("#ticket").animate({top: '10px'}, "slow")
 		$("#trick").show()
-	})
-	$("#element1").on("mouseout",function () {
+		});
+
+		$("#element1").on("mouseleave",function () {
+		console.log("mouse is out")
 		$("#ticket").hide()
 		$("#trick").hide()
-	})
+		});
+	event.preventDefault();			
+    $("#element"+1).append($("#ticket"))
 }
 
 
