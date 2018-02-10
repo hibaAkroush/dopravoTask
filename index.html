@@ -5,16 +5,57 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" href="styles.css">
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
+
 </head>
-<body onload="load()">
+<body onload="load()" >
 <script type="text/javascript" src="underscore-min.js"></script>
 <script type="text/javascript" src="home.js"></script>
 <script type="text/javascript" src="list1.json"></script>
 <script type="text/javascript" src="list2.json"></script>
+<!-- page 2  -->
+<img id="tw" src="./web/twitter-3x.png"/> 
+<img id="fb" src="./web/facebook-3x.png"/> 
+<img id="insta" src="./web/instagram-3x.png"/> 
+<img id = "page2Pic" src="./web/sorry.jpg">
+
+<div id="page2Container">
+    <p id = "headerP2">Riyadh Reviwe <br> Stipece</p>
+    <h6 id = "lineP2">Lorem ipsum dolor sit amet</h6>
+    <p id="textP2">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+    <div id="FestivalsP2"></div>
+    <div id= "dateP2"></div>
+    <div id="priceP2"></div>
+    <div id= "seatsP2"></div>
+    <div id="remainingP2"></div>
+    <div id="locationP2"></div>
+    <div id= "lineP2"></div>
+    <button id="PurchaseTickets">Purchase Tickets</button>
+</div>
+<!-- menu -->
+    <div id="menu">
+
+    <img src="./web/logo-3x.png" id="logo"/>
+
+    <div id="blockLeft">
+    <p id="Events">Events</p>
+        <div id="smallBlock">
+            Sports (20)<br/>Festivals (11)<br/>Conderence (1)<br/>Family (30)<br/>Business (22) <br/>VIP (33)
+        </div>
+    </div>
+
+    <p id="membership">Membership</p>
+    <div id="border1"></div>
+    <p id="seasonal">Seasonal <br/>Tickets</p>
+    <div id="border2"></div>
+    <p id="purchases">Purchases</p>
+    <div id="border3"></div>
+    <p id="about">About Makani</p>
+    <p id="contacts">Contact us</p>
+    <p id="help">Help & FAQ</p>
+    <div id="border4"></div>
+    <p id="user"> User Name</p>
+    </div>
+<div id="page1Container">
 <!-- banner -->
 	<div>
     <img id="group" src="./web/group-3x.png"/>
@@ -26,30 +67,6 @@
     </a>
 	</div>
 
-<!-- menu -->
-      <div id="menu">
-
-        <img src="./web/logo-3x.png" id="logo"/>
-
-        <div id="blockLeft">
-        <p id="Events">Events</p>
-            <div id="smallBlock">
-                Sports (20)<br/>Festivals (11)<br/>Conderence (1)<br/>Family (30)<br/>Business (22) <br/>VIP (33)
-            </div>
-        </div>
-
-        <p id="membership">Membership</p>
-        <div id="border1"></div>
-        <p id="seasonal">Seasonal <br/>Tickets</p>
-        <div id="border2"></div>
-        <p id="purchases">Purchases</p>
-        <div id="border3"></div>
-        <p id="about">About Makani</p>
-        <p id="contacts">Contact us</p>
-        <p id="help">Help & FAQ</p>
-        <div id="border4"></div>
-        <p id="user"> User Name</p>
-      </div>
 
 <!-- search -->
     <div>
@@ -62,9 +79,7 @@
         <button  id="week"></button>
         <img src="./web/special.png" id="dropdownmenu2"/>
         <p id="textWeek">This Week</p>
-        <img id="tw" src="./web/twitter-3x.png"/> 
-        <img id="fb" src="./web/facebook-3x.png"/> 
-        <img id="insta" src="./web/instagram-3x.png"/> 
+
     </div>
 <!-- list1 -->
 <div id="listA" class="multiple-items">
@@ -76,7 +91,7 @@
     <div id="element5"></div>
 </div>
 <p id = "upcoming">Upcoming Events</p>
-<p id = "membership">Membership</p>
+<p id = "membershipWord">Membership</p>
 <div id="listB" class="multiple-items">
     <div id="dummy0"></div>
     <div id="dummy1"></div>
@@ -86,10 +101,7 @@
 
 <button id="ticket">Get Ticket</button>   
 <div id="trick"></div>
-
-<script type="text/javascript">
-    $("#element"+1).append($("#trick"), $("#ticket"))
-</script>
+</div>
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 </body>

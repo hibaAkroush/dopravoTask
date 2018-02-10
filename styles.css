@@ -557,7 +557,7 @@ text-align: center;
 	font-size: 12px;
 }
 
-#membership{
+#membershipWord{
 	position: absolute;
 	top: 350px;
 	left: 74px;
@@ -620,7 +620,7 @@ z-index: 3;
 color: rgba(255, 255, 255, 1);
 font-family: 'Helvetica Neue';
 font-size: 9px;
-top:90px;
+top:70px;
 background-image: -webkit-linear-gradient(-180deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%);
 }
 
@@ -633,4 +633,34 @@ background-color: rgba(255, 255, 255, 1);
 z-index: 3;
 font-size: 9px;
 top: 325px;
+}
+
+#page2Pic{
+display: none;
+position: absolute;
+left : 771px;
+}
+
+#page2Container{
+display: none;
+position: absolute;
+left: 70px;	
+}
+
+#textP2{
+	font-size: 6px;
+	float: right;
+}
+
+#PurchaseTickets{
+	position: absolute;
+left: 170px;
+height: 20px;
+width: 90px;
+border-radius: 20px;	
+color: rgba(255, 255, 255, 1);
+font-family: 'Helvetica Neue';
+font-size: 9px;
+top:70px;
+background-image: -webkit-linear-gradient(-180deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%);
 }

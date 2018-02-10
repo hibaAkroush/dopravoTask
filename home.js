@@ -42,20 +42,39 @@ $('.multiple-items').slick({
    	prevArrow: false,
    nextArrow: false
 });
-
-		$("#element1, box, playerOneImg, playerTwoImg, playerTwoName, playerOneName, titleLogo, vs, title, date, time, place, event, seats,backgroundImg , coming").on("mouseover",function () {
-		console.log("mouse is in")	
-		$("#ticket").animate({top: '10px'}, "slow")
-		$("#trick").show()
-		});
-
-		$("#element1").on("mouseleave",function () {
-		console.log("mouse is out")
-		$("#ticket").hide()
-		$("#trick").hide()
-		});
 	event.preventDefault();			
-    $("#element"+1).append($("#ticket"))
+    $("#element"+1).append($("#ticket"),$("#trick"))
+
+	jQuery(function( $ ){
+	    $( "#element1" ).hover(
+	        function(){
+	            console.log( "mouseEnter" );
+				$("#ticket").animate({top: '10px'}, "slow")
+				$("#trick").show()            
+	        },
+	        function(){
+	            console.log( "mouseLeave" );
+				$("#ticket").hide()
+				$("#trick").hide()          
+	        }
+	    );
+	});
+
+	$("#ticket").on("click", function () {
+		$("#page1Container").hide();
+
+		$("#menu").animate({"left": "-60px"}, 0, function () {
+			$("#menu").animate({"left": "0px"})
+		});
+
+
+		$("#page2Pic").show(0,function () {
+			$("#page2Pic").animate({"left": "500px"})
+		});
+
+		$("#page2Container").show();
+
+	});
+
+
 }
-
-
