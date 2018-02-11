@@ -80,6 +80,12 @@ $('.multiple-items').slick({
 
 	});
 
+	$("#input").on("click", function () {
+		$("#value").hide();
+		// $("#searchButton").css({ "border-style": "solid"});
+		$("#input").css({"border-color": "coral"});
+	})
+
 	jQuery(function( $ ){
 	    $( "#PurchaseTicketsContainer" ).hover(
 	        function(){

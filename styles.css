@@ -682,6 +682,11 @@ color: rgba(71, 70, 72, 1);
 
 }
 
+
+input:focus {
+    outline: none;
+}
+
 #textP2{
 top: 133px;
 height: 21px;
