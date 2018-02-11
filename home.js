@@ -80,5 +80,20 @@ $('.multiple-items').slick({
 
 	});
 
+	jQuery(function( $ ){
+	    $( "#PurchaseTicketsContainer" ).hover(
+	        function(){
+	            console.log( "mouseEnter PurchaseTicketsContainer" );
+				$("#PurchaseTickets").animate({"top":"417px"})	
+				$("#PurchaseTicketsText").animate({"top":"420px"})			         
+	        },
+	        function(){
+	            console.log( "mouseLeave PurchaseTicketsContainer" );
+				$("#PurchaseTickets").animate({"top":"427px"})	
+				$("#PurchaseTicketsText").animate({"top":"430px"})							        
+	        }
+	    );
+	});
+
 
 }
