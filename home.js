@@ -49,15 +49,17 @@ $('.multiple-items').slick({
 	    $( "#element1" ).hover(
 	        function(){
 	            console.log( "mouseEnter" );
-				$("#ticket").show(0, function () {
-					$("#ticket").animate({"top":"90px"})
-				})
+				$("#ticket").animate({"top":"90px"}, function () {
+					$("#ticket").fadeIn(100)
+				})				
 				$("#trick").show()            
 	        },
 	        function(){
 	            console.log( "mouseLeave" );
-				$("#ticket").hide()
-				$("#trick").hide()          
+				$("#ticket").animate({"top":"102px"}, function () {
+					$("#ticket").fadeOut(100)
+				})							
+				$("#trick").hide();          
 	        }
 	    );
 	});

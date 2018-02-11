@@ -620,8 +620,7 @@ z-index: 3;
 color: rgba(255, 255, 255, 1);
 font-family: 'Helvetica Neue';
 font-size: 9px;
-top:100px;
-display: none;
+top:90px;
 background-image: -webkit-linear-gradient(-180deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%);
 }
 
@@ -640,6 +639,8 @@ top: 95px;
 display: none;
 position: absolute;
 left : 771px;
+height: 558px;
+width: 292px;
 }
 
 #page2Container{
@@ -653,15 +654,64 @@ left: 70px;
 	float: right;
 }
 
-#PurchaseTickets{
-position: absolute;
-left: 170px;
-height: 20px;
-width: 90px;
-border-radius: 20px;	
-color: rgba(255, 255, 255, 1);
-font-family: 'Helvetica Neue';
+
+#page2Container p {
+	position: absolute;
+	left: 76px;
+	font-family: 'Helvetica Neue';
+	text-align: left;
+
+}
+
+#headerP2{
+	top: 37px;
+	height: 62px;
+	width: 193px;
+	font-size: 26px;
+	color: rgba(71, 70, 72, 1);
+}
+
+
+
+#lineP2{
+top: 110px;
+height: 13px;
+width: 193px;
+font-size: 11px;
+color: rgba(71, 70, 72, 1);
+
+}
+
+#textP2{
+top: 133px;
+height: 21px;
+width: 304px;
 font-size: 9px;
-top:70px;
-background-image: -webkit-linear-gradient(-180deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%);
+color: rgba(150, 149, 151, 1);
+}
+
+#PurchaseTickets{
+	position: absolute;
+	top: 427px;
+	left: 154px;
+	height: 32px;
+	width: 144px;
+	border-radius: 16px;
+	box-shadow: 0px 5px 9px 0px rgba(187, 50, 54, 0.22);
+	background-image: -webkit-linear-gradient(-32deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%);
+	background-image: -moz-linear-gradient(-32deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%);
+	background-image: -o-linear-gradient(-32deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%);
+	background-image: linear-gradient(-32deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%);
+}
+
+#PurchaseTicketsContainer #PurchaseTicketsText{
+position: absolute;
+top: 430px;
+left: 190px;
+height: 11px;
+width: 69px;
+font-family: 'Helvetica';
+font-size: 9px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
 }
