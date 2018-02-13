@@ -82,8 +82,10 @@ $('.multiple-items').slick({
 
 	$("#input").on("click", function () {
 		$("#value").hide();
-		// $("#searchButton").css({ "border-style": "solid"});
+		// $("#searchButton").css({ "border-style": "solid"});,"searchButton2","searchButton"
 		$("#input").css({"border-color": "coral"});
+		$("#searchButton2").css({"border-color": "coral"});
+		$("#searchButton").css({"border-color": "coral"});
 	})
 
 	jQuery(function( $ ){
@@ -101,5 +103,13 @@ $('.multiple-items').slick({
 	    );
 	});
 
-
+$('body').click(function(e) {
+    if ($(e.target).closest('#searchContainer').length === 0) {
+    	$("#value").show();
+        console.log("clcked oytside search")
+        $("#input").css({"border-color": ""});
+		$("#searchButton2").css({"border-color": ""});
+		$("#searchButton").css({"border-color": ""});
+    }
+});
 }
