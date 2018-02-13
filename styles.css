@@ -262,7 +262,18 @@ line-height: 9px;
 
 /*search*/
 
-
+#searchContainer #advanced{
+position: absolute;
+top: 25px;
+left: 73px;
+height: 6px;
+width: 44px;
+font-family: 'Helvetica Neue';
+font-size: 6px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+text-decoration: underline;
+}
 
 #square{
 	position: absolute;
@@ -738,5 +749,28 @@ font-family: 'Helvetica Neue';
 font-size: 5px;
 color: rgba(150, 149, 151, 1);
 text-align: left;
+
+}
+
+#stadium{
+position: absolute;
+top: 370px;
+left: 77px;
+height: 18px;
+width: 115px;
+font-family: 'Helvetica Neue';
+font-size: 8px;
+color: rgba(150, 149, 151, 1);
+text-align: left;
+
+}
+#googleApis{
+	position: absolute;
+top: 255px;
+left: 75px;
+height: 107px;
+width: 314px;
+background-color: rgba(228, 228, 228, 1);
+border-radius: 2px;
 
 }
