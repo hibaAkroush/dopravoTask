@@ -85,11 +85,12 @@ $('.multiple-items').slick({
 
 
 		$("#page2Pic").show(0,function () {
-			$("#page2Pic").animate({"left": "500px"})
+			$("#page2Pic").animate({"left": "478px"})
 		});
 
 		$("#page2Container").show();
-
+		$("#rightsReserved").css({"top":"540px"})
+		$("#menu").css({"height":"560px"})
 	});
 
 	$("#input").on("click", function () {
