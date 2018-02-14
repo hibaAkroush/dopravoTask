@@ -32,6 +32,18 @@ var background = '<img src =' + val.background +' id="backgroundImg"/>'
 var coming = '<img src =' + val.coming +' id="coming"/>'
 
 $("#element"+i).append(box, background, coming,  p1img, p2img, p2name, p1name, seats, event, place, time, date, title, vs, titlelogo)
+if(i===1){
+	$("#elementFake"+1).append(box, background, coming,  p1img, p2img, p2name, p1name, seats, event, place, time, date, title, vs, titlelogo)
+}
+if(i===2){
+	$("#elementFake"+3).append(box, background, coming,  p1img, p2img, p2name, p1name, seats, event, place, time, date, title, vs, titlelogo)
+}
+if(i===3){
+	$("#elementFake"+0).append(box, background, coming,  p1img, p2img, p2name, p1name, seats, event, place, time, date, title, vs, titlelogo)
+}
+if(i===4){
+	$("#elementFake"+2).append(box, background, coming,  p1img, p2img, p2name, p1name, seats, event, place, time, date, title, vs, titlelogo)
+}
 });
 
 $('.multiple-items').slick({
