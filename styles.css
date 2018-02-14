@@ -389,6 +389,7 @@ width: 37px;
 	left: 577px;
 	height: 14px;
 	width: 14px;
+	z-index: 2;
 }
 
 #fb{
@@ -397,6 +398,7 @@ width: 37px;
 	left: 600px;
 	height: 14px;
 	width: 14px;
+	z-index: 2;
 }
 
 #insta{
@@ -405,7 +407,7 @@ width: 37px;
 	left: 620px;
 	height: 15px;
 	width: 15px;
-
+	z-index: 2;
 }
 
 /*listA*/
@@ -656,8 +658,8 @@ top: 95px;
 #page2Pic{
 display: none;
 position: absolute;
-left : 771px;
-height: 558px;
+left : 700px;
+height: 598px;
 width: 292px;
 }
 
@@ -675,7 +677,7 @@ left: 70px;
 
 #page2Container p {
 	position: absolute;
-	left: 76px;
+	left: 10px;
 	font-family: 'Helvetica Neue';
 	text-align: left;
 
@@ -690,7 +692,14 @@ left: 70px;
 }
 
 
+#locationP2{
+	position: absolute;
+top: 238px;
+left: 10px;
+height: 10px;
+width: 30px;
 
+}
 #lineP2{
 top: 110px;
 height: 13px;
@@ -755,7 +764,7 @@ text-align: left;
 #stadium{
 position: absolute;
 top: 370px;
-left: 77px;
+left: 10px;
 height: 18px;
 width: 115px;
 font-family: 'Helvetica Neue';
@@ -765,12 +774,134 @@ text-align: left;
 
 }
 #googleApis{
-	position: absolute;
+position: absolute;
 top: 255px;
-left: 75px;
+left: 10px;
 height: 107px;
 width: 314px;
 background-color: rgba(228, 228, 228, 1);
 border-radius: 2px;
 
 }
+
+#listContainerP2 img{
+position: absolute;
+top: 182px;
+height: 28px;
+width: 28px;
+}
+
+#listContainerP2 p{
+position: absolute;
+font-family: 'Helvetica Neue';
+color: rgba(71, 70, 72, 1);
+text-align: center;
+top: 215px;
+font-size: 5px;
+
+}
+
+
+#listContainerP2 #icon1Con #icon1text1{
+top: 205px;
+left: 30px;
+height: 8px;
+width: 26px;
+font-size: 7px;
+}
+
+
+#listContainerP2 #icon2Con #icon2text1{
+top: 205px;
+left: 95px;
+height: 8px;
+width: 30px;
+font-size: 7px;
+}
+
+#listContainerP2 #icon3Con #icon3text1{
+top: 205px;
+left: 165px;
+height: 8px;
+width: 30px;
+font-size: 7px;
+}
+
+#listContainerP2 #icon4Con #icon4text1{
+top: 205px;
+left: 229px;
+height: 8px;
+width: 40px;
+font-size: 7px;
+}
+
+#listContainerP2 #icon5Con #icon5text1{
+top: 205px;
+left: 288px;
+height: 8px;
+width: 47px;
+font-size: 7px;
+}
+
+
+
+
+#icon1{
+left: 28px;
+}
+
+#icon2{
+left: 95px;
+}
+
+#icon3{
+left: 164px;
+
+}
+
+#icon4{
+left: 232px;
+
+}
+
+#icon5{
+left: 291px;	
+}
+
+
+#listContainerP2 #icon1Con #icon1text2{
+left: 28px;
+width: 30px;
+color: rgba(150, 149, 151, 1);
+
+}
+
+
+#listContainerP2 #icon2Con #icon2text2{
+	left: 97px;
+	width: 23px;
+color: rgba(150, 149, 151, 1);
+
+}
+
+#listContainerP2 #icon3Con #icon3text2{
+left: 164px;
+width: 33px;
+color: rgba(150, 149, 151, 1);
+
+}
+
+#listContainerP2 #icon4Con #icon4text2{
+left: 232px;
+width: 31px;
+color: rgba(150, 149, 151, 1);
+
+}
+
+#listContainerP2 #icon5Con #icon5text2{
+left: 291px;
+width: 31px;
+color: rgba(150, 149, 151, 1);
+
+}
+

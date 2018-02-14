@@ -112,4 +112,12 @@ $('body').click(function(e) {
 		$("#searchButton").css({"border-color": ""});
     }
 });
+
+$("#listContainerP2 img").hover(function () {
+	$(this).css({"height":"30px"})
+	$(this).css({"width":"30px"})
+},function () {
+	$(this).css({"height":"28px"})
+	$(this).css({"width":"28px"})
+})
 }
